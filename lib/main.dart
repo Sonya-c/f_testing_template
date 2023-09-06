@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
         ),
         home: const LoginScreen(
           key: Key('LoginScreen'),
-          email: "blank",
-          password: "blank",
+          email: "email@domain.tld",
+          password: "123456789",
         ));
   }
 }
